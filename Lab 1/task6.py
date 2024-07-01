@@ -1,4 +1,7 @@
 x= True
-type(x)
+print(x)
+print(type(x))
+
 y= False
-type(y)
+print(y)
+print(type(y))
