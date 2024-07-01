@@ -1,0 +1,6 @@
+print("THis is a Backslash: \\")
+print("THis is a single quote: \'")
+print("THis is a double quote: \"")
+print("THis is a backspace: \b")
+print("THis is a newline: \n")
+print("THis is a tab: \t")
