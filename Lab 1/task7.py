@@ -1,0 +1,12 @@
+str1="String1"
+print(str1)
+str2="String2"
+print(str2)
+str3="String3'
+print(str3)
+str4='String4"
+print(str4)
+str5='String"5'
+print(str5)
+str6="String'6"
+print(str6)
