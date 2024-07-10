@@ -32,3 +32,21 @@
 - **Task 14**: Classes - Creating an object of a class
 - **Task 15**: Classes - Class with constructor/initializer
 - **Task 16**: Classes - Class with methods
+
+## Lab 3: Introduction to Python - Buildiing Logic
+
+- **Task 1**: Find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included).
+- **Task 2**: Convert temperatures to and from Celsius, Fahrenheit.
+- **Task 3**: Guess a number game 1 to 9.
+- **Task 4**: Print Asterisk pattern.
+- **Task 5**: Reverse a word.
+- **Task 6**: Count even and odd numbers in a list.
+- **Task 7**: Print type of elements in a list.
+- **Task 8**: Print All numbers from 0 to 6 except 3 and 6.
+- **Task 9**: Get the Fibonacci series between 0 to 50.
+- **Task 10**: Print text for mutiples of 3, 5, 3 and 5.
+- **Task 11**: Create Two dimentional array.
+- **Task 12**: Input sequence of lines and terminate on empty line with output in lower case.
+- **Task 13**: Accepting a sequence of comma-separated binary numbers from console and check if they are divisible by 5.
+- **Task 14**: Accept a String and calculate the number of digits and letters.
+- **Task 15**: Check the validity of password input by the user.
