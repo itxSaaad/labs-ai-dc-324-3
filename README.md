@@ -33,7 +33,7 @@
 - **Task 15**: Classes - Class with constructor/initializer
 - **Task 16**: Classes - Class with methods
 
-## Lab 3: Introduction to Python - Buildiing Logic
+## Lab 3: Introduction to Python - Building Logic
 
 - **Task 1**: Find those numbers which are divisible by 7 and multiple of 5, between 1500 and 2700 (both included).
 - **Task 2**: Convert temperatures to and from Celsius, Fahrenheit.
@@ -50,3 +50,20 @@
 - **Task 13**: Accepting a sequence of comma-separated binary numbers from console and check if they are divisible by 5.
 - **Task 14**: Accept a String and calculate the number of digits and letters.
 - **Task 15**: Check the validity of password input by the user.
+
+## Lab 4: Data Structures - Stack, Queue, Binary Search
+
+- **Task 1**: Implement Stack using Class
+- **Task 2**: Implement Queue using Class
+- **Task 3**: Implement Binary Search/Half-Interval Search Algorithm
+
+## Lab 5: Searching Algorithms - Breadth First Search
+
+- **Task 1**: Implement Breadth First Search Algorithm
+- **Task 2**: Implement Breadth First Search Algorithm Using Queue on a Graph
+- **Task 3**: Implement Priority Queue using Heap
+
+## Lab 6: Searching Algorithms - Depth First Search
+
+- **Task 1**: Implement Depth First Search Algorithm
+- **Task 2**: Implement Depth First Search Algorithm Using Stack on a Graph

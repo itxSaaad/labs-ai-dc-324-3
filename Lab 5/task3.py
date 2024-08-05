@@ -12,5 +12,3 @@ def priority_queue():
         print("Priority:", priority, "Node:", node)
 
 priority_queue()
-
-        
