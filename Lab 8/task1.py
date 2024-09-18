@@ -37,20 +37,20 @@ heuristics = {
 def greedy_best_first_search(start, goal):
     priority_queue = []
     heapq.heappush(priority_queue, (heuristics[start], start))
-    
+
     visited = set()
-    
+
     while priority_queue:
         _, current_node = heapq.heappop(priority_queue)
-        
+
         print(f"Visiting: {current_node}")
-        
+
         if current_node == goal:
             print("Goal reached!")
             return
-        
+
         visited.add(current_node)
-       
+
         for neighbor, _ in graph[current_node]:
             if neighbor not in visited:
                 heapq.heappush(priority_queue, (heuristics[neighbor], neighbor))

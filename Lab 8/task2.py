@@ -37,24 +37,24 @@ heuristics = {
 def a_star_search(start, goal):
     priority_queue = []
     heapq.heappush(priority_queue, (0 + heuristics[start], 0, start, []))
-    
+
     visited = set()
-    
+
     while priority_queue:
         _, cost, current_node, path = heapq.heappop(priority_queue)
-        
+
         path = path + [current_node]
-        
+
         print(f"Visiting: {current_node}")
-        
+
         if current_node == goal:
             print("Goal reached!")
             print(f"Path: {path}")
             print(f"Total Cost: {cost}")
             return
-        
+
         visited.add(current_node)
-      
+
         for neighbor, step_cost in romania_map[current_node]:
             if neighbor not in visited:
                 total_cost = cost + step_cost

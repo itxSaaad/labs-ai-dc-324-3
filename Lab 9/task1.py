@@ -1,6 +1,7 @@
 def minimax(node, depth, isMaximizingPlayer, alpha, beta):
     if depth == 0 or len(node[1]) == 0:
         return node[0]
+
     if isMaximizingPlayer:
         best_val = float('-inf')
         for child in node[1]:
@@ -20,6 +21,16 @@ def minimax(node, depth, isMaximizingPlayer, alpha, beta):
                 break
         return best_val
 
-tree = [3, [[5, [[9, [[8, [], []], [6, [], []]]], [6, [], []]], [2, [[3, [[1, [], []]], [7, [], []]]]]]]]
+tree = [3,
+            [
+                [5,
+                [
+                    [9, [[8, [], []], [6, [], []]]],
+                    [6, [], []]
+                    ]
+                ],
+                [2, [[3, [[1, [], []]], [7, [], []]]]]
+            ]
+        ]
 
 print(minimax(tree, 3, True, float('-inf'), float('inf')))
